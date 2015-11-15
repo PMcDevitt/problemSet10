@@ -33,7 +33,7 @@ describe('Validator', function () {
       expect(validator.validate()).to.be.true;
     });
 
-    it('returns false for a valid object', function () {
+    it('returns false for an invalid object', function () {
       var invalidCat = {
         name: '',
         breed: 'American Shorthair',
