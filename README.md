@@ -80,6 +80,12 @@ _Acceptance Criteria_:
 1. Given a set of valid data and validation criteria for that data, the validator returns `true`.
 1. Given a set of invalid data and validation criteria for that data (that is unmet), the validator returns `false` but (by some mechanism) returns a set of human readable errors for the object. (_Hint_ This _could_ (or could not!) involve calling another method to retrieve populated errors)
 
+***Note:*** At the conclusion of this feature work, use `git` to checkpoint your work. As a reminder the steps here are:
+  1. `git add [files you want to stage]`
+  1. `git status` (make sure you have staged the correct files)
+  1. `git commit -m "[commit message text goes in here]"`
+  1. `git log` (to see commits being added)
+
 ## Stretch Goals
 
 1. Create an Express CRUD application that includes your validator class as a dependency and uses it ensure that data for a given resource (e.g. `cats`), is valid before it is persisted. If data is invalid, re-render the same view that the user was already seeing and surface the human readable errors to them.
