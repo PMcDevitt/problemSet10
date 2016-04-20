@@ -4,7 +4,7 @@
   "description": "## Introduction",
   "main": "index.js",
   "directories": {
-    "test": "test"
+    "test": "mocha test"
   },
   "scripts": {
     "test": "node_modules/mocha/bin/mocha"
@@ -14,5 +14,13 @@
   "devDependencies": {
     "chai": "^3.4.1",
     "mocha": "^2.3.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://awshanks@github.com/awshanks/xp_problem_set_10.git"
+  },
+  "bugs": {
+    "url": "https://github.com/awshanks/xp_problem_set_10/issues"
+  },
+  "homepage": "https://github.com/awshanks/xp_problem_set_10#readme"
 }
